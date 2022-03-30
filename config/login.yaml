@@ -1,0 +1,28 @@
+#登录系统
+TH-LOGIN-0001:
+  - by: id
+    locator: login_user
+    action: send
+    value: "system"
+
+  - by: id
+    locator: login_username
+    action: send
+    value: "admin"
+
+  - by: id
+    locator: login_password
+    action: send
+    value: "admin"
+
+  - by: id
+    locator: login_confirm
+    action: click
+
+#  - by: xpath
+#    locator: //*[@id="tenant_show"]/span
+#    action: click
+#
+#  - by: xpath
+#    locator: //*[@id="tenantScroll"]/ul/li[1]/div/span[3]
+#    action: move_click
